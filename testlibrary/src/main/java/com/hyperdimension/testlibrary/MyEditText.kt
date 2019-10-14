@@ -2,9 +2,9 @@ package com.hyperdimension.testlibrary
 
 import android.content.Context
 import android.util.AttributeSet
-import android.widget.EditText
+import androidx.appcompat.widget.AppCompatEditText
 
-class MyEditText : EditText {
+class MyEditText : AppCompatEditText {
 
     constructor(context: Context) : super(context)
 
@@ -15,12 +15,5 @@ class MyEditText : EditText {
         attrs,
         defStyleAttr
     )
-
-    constructor(
-        context: Context,
-        attrs: AttributeSet?,
-        defStyleAttr: Int,
-        defStyleRes: Int
-    ) : super(context, attrs, defStyleAttr, defStyleRes)
 
 }

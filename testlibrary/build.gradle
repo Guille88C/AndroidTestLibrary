@@ -37,19 +37,19 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'android-test-library'
+    bintrayRepo = 'AndroidTest'
+    bintrayName = 'william-android-library'
 
-    publishedGroupId = 'com.hyperdimension'
-    libraryName = 'AndroidTest'
-    artifact = 'android-test-library'
+    publishedGroupId = 'com.williamcb'
+    libraryName = 'WilliamaAndroidLibrary'
+    artifact = 'william-android-library'
 
     libraryDescription = 'Android test library'
 
     siteUrl = 'https://github.com/SephirothGCB/AndroidTestLibrary'
     gitUrl = 'https://github.com/SephirothGCB/AndroidTestLibrary.git'
 
-    libraryVersion = '0.1.0'
+    libraryVersion = '0.1.2'
 
     developerId = 'WilliamCB'
     developerName = 'Guillermo CB'
